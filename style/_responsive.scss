@@ -1,0 +1,265 @@
+@include media-1000{
+    .header_contant{
+        h1{
+            font-size: 40px!important;
+        }
+    }
+
+    .left_section_1{
+        padding: 100px 90px!important;
+    }
+ 
+    .footer_content > div{
+        width: 45%!important;
+        
+    }
+    .section_3_content_text{
+        h1{
+            font-size: 30px!important;
+           
+        }
+        p{
+            font-size: 14px !important;
+        }
+    }
+
+
+    .section_5_content{
+        width: 90% !important;
+        margin: 0 auto !important
+    }
+};
+
+
+@include media-900{
+    .left_section_1{
+        padding: 70px 50px!important;
+    }
+  .section_3_content{
+      justify-content: flex-end;
+  }
+   .macbook , .section_3_content_text{
+       width: 60% !important;
+    
+   }
+   .section_4_teams{
+       justify-content: center !important;
+       margin-bottom: 40px !important;
+   }
+
+   .team{
+       width: 60%!important;
+    //    margin: 0 auto 40px auto!important;
+    margin-bottom: 40px !important;
+   }
+
+   #section_4{
+    padding:50px 100px  !important;
+}
+.section_6_content{
+    h1{
+        font-size: 30px !important;
+    }
+
+    form{
+        width: 70% !important ;
+        margin: 0 auto 20px auto !important;
+
+        input{
+            width: 100% !important;
+            margin-bottom: 40px !important;
+        }
+
+        .last_input{
+            margin-top: 40px !important;
+            width: 70% !important;
+
+            .free_30 {
+                top: -60% !important;
+            }
+        }
+    }
+}
+}
+
+
+@include media-800{
+   .left_section_1 {
+       h1{
+           font-size: 30px !important;
+       }
+   }
+
+   .section_2_contant_items > div{
+width: 70% !important;
+margin: 0 auto 50px auto;
+   }
+
+   .section_4_teams{
+       width: 80% !important;
+       margin: 0 auto 40px auto !important;
+   }
+
+   #section_4{
+    padding:50px 30px  !important;
+}
+
+.footer_content > div{
+    width: 100% !important;
+    text-align: center;
+    
+}
+
+.newsletter{
+    padding: 0 25px !important;
+}
+}
+
+
+
+
+@include media-700{
+
+.section_6_content{
+    width: 100% !important;
+    
+    form{
+        width: 90% !important;
+       
+    }
+}
+
+}
+
+
+
+
+
+
+@include media-600{
+    .header_contant{
+        h1{
+            font-size: 30px!important;
+            letter-spacing: 1px!important;
+        }
+    }
+
+    #section_1 > div{
+        width: 100%!important;
+    }
+    .section_2_contant{
+        h1{
+            font-size: 30px !important;
+        }
+    }
+
+    #section_2{
+        padding: 100px 60px  !important;
+    }
+    #section_2 > img{
+        width: 140px!important;
+    height: 140px!important;
+    }
+#section_3{
+    padding: 20px 30px!important;
+}
+.trangle2{
+    height: 80% !important;
+    
+}
+    .section_3_content{
+        width: 90% !important;
+    }
+
+    .section_3_content_text{
+        h1{
+            font-size: 20px!important;
+           
+        }}
+
+        .team{
+            width: 100%!important;
+       }
+
+       
+       .section_4_logos > img{
+           max-width: 29% !important;
+           margin-bottom: 40px !important;
+       }
+
+       .section_5_content_text{
+           h1{
+               font-size: 30px !important;
+           }
+       }
+
+       .trangle3{
+           height: 50% !important;
+           width: 30% !important;
+       }
+}
+
+
+@include media-500{
+
+    .last_input{
+        margin-top: 40px !important;
+        width: 90% !important;
+
+    
+    }
+
+    .newsletter{
+        padding: 0  !important;
+    }
+
+    .footer_content{
+        padding: 0 !important;
+    }
+
+}
+
+
+@include media-400{
+   .left_section_1 p , .section_2_contant_item p {
+       font-size: 14px;
+    }
+
+    #section_2{
+        padding: 120px 30px  !important;
+    }
+
+    #section_3{
+        padding: 20px 10px!important;
+    }
+    .section_3_content{
+        width: 100% !important;
+    }
+
+    .macbook , .section_3_content_text{
+        width: 70% !important;
+     
+    }
+
+    
+    .section_4_logos {
+        padding: 0 !important;
+    }
+
+    .section_5_content_text{
+        p{
+            font-size:  14px !important;
+        }
+    }
+
+    .section_6_content{
+        padding: 40px 15px !important;
+    }
+
+    .footer_content > div{
+      p{
+          font-size: 14px !important;
+      }
+        
+    }
+}

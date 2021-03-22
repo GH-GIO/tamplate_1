@@ -1,0 +1,62 @@
+$primery-color : #000000;
+$secondary : white;
+$third:#8a8a8a;
+$transition : all 0.3s ease;
+$box-shadow : 2px 2px 15px rgba(0,0,0,0.2);
+$border_radius : 5px;
+$border_radius_small :2px;
+
+// color #1b2440, #495b73 , #7b92a6 , 93aebf
+
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+button{
+    outline: none;
+    border: none;
+}
+@mixin media-400 {
+    @media screen  and (max-width : 400px) {
+        @content
+    }
+};
+@mixin media-500 {
+    @media screen  and (max-width : 500px) {
+        @content
+    }
+};
+@mixin media-700 {
+    @media screen  and (max-width : 700px) {
+        @content
+    }
+};
+@mixin media-600 {
+    @media screen  and (max-width : 600px) {
+        @content
+    }
+};
+
+@mixin media-800{
+    @media screen  and (max-width : 800px) {
+        @content
+    }
+};
+
+@mixin media-900{
+    @media screen  and (max-width : 900px) {
+        @content
+    }
+};
+
+
+@mixin media-1000 {
+    @media screen  and (max-width : 1000px) {
+        @content
+    }
+};
